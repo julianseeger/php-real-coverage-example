@@ -1,0 +1,14 @@
+{
+    "name": "julianseeger/php-real-coverage-example",
+    "description": "Example project that uses php-real-coverage",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Julian Seeger",
+            "email": "seeger.julian@gmail.com"
+        }
+    ],
+    "require": {
+        "julianseeger/php-real-coverage": "dev-master"
+    }
+}
