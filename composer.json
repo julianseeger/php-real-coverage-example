@@ -8,6 +8,12 @@
             "email": "seeger.julian@gmail.com"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/julianseeger/php-real-coverage"
+      }
+    ],
     "require": {
         "julianseeger/php-real-coverage": "dev-master"
     },

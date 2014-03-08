@@ -9,7 +9,6 @@ class SomeClassTest extends \PHPUnit_Framework_TestCase
         $sut = new SomeClass();
         $instance = $sut->someFunction();
 
-        $this->assertInstanceOf('\stdClass', $instance);
-        $this->assertTrue($instance->attribute);
+        $this->assertEquals("important message!!!" , $instance);
     }
 }

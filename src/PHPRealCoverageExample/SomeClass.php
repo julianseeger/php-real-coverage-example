@@ -5,11 +5,11 @@ namespace PHPRealCoverageExample;
 class SomeClass {
     public function someFunction()
     {
-        $instance = new \stdClass();
+        $instance = "important message";
         $a = "This code";
         $b = "is completely";
         $c = "usesless";
-        $instance->attribute = true;
+        $instance .= "!!!";
         if (true) {
             $f = "and has";
             $g = "100% coverage";
