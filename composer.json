@@ -10,5 +10,8 @@
     ],
     "require": {
         "julianseeger/php-real-coverage": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"PHPRealCoverageExample\\": "src/PHPRealCoverageExample/"}
     }
 }
